@@ -12,6 +12,7 @@ then switching the state of all vertices to which the chosen vertex is connected
 necessarily include the chosen vertex). The object of the game is to get from a given start configuration
 of on and off vertices to a given end configuration of on and off vertices. The σ<sup>+</sup>-game is the same
 as the σ-game except for a move the chosen vertex also switches state.
+#####NOTE: This program depends the JAMA package which can be downloaded <a href="http://math.nist.gov/javanumerics/jama">here</a>
 
 ---
 ###Goals:
