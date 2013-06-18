@@ -12,17 +12,17 @@ then switching the state of all vertices to which the chosen vertex is connected
 necessarily include the chosen vertex). The object of the game is to get from a given start configuration
 of on and off vertices to a given end configuration of on and off vertices. The σ<sup>+</sup>-game is the same
 as the σ-game except for a move the chosen vertex also switches state.
-#####NOTE: This program depends the JAMA package which can be downloaded <a href="http://math.nist.gov/javanumerics/jama">here</a>
+#####NOTE: This program depends JScience which can be downloaded <a href="http://jscience.org/">here</a>
 
 ---
 ###Goals:
 ####Completed:
 * Readme
+* Board class
 
 ####Short Term Plans:
 * Create and write class SigmaGame which will do all the σ-game related computations for the program
-* Create and write class Board which will serve as a convenience class for dealing with the directed graph and
-configurations of the vertices.
 
 ####Long Term Plans:
 * GUI
+* Make Board more efficient at finding when there is no solution possible for a pair of configurations
