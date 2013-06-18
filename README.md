@@ -21,8 +21,8 @@ as the σ-game except for a move the chosen vertex also switches state.
 * Board class
 
 ####Short Term Plans:
-* Create and write class SigmaGame which will do all the σ-game related computations for the program
+* Create and write class SigmaGame which will control the GUI of the program
+* GUI
 
 ####Long Term Plans:
-* GUI
 * Make Board more efficient at finding when there is no solution possible for a pair of configurations
